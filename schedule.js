@@ -1,4 +1,4 @@
-var Schedule = angular.module('schedule', [];
+var Schedule = angular.module('schedule', []);
 
 Schedule.factory('rooms', function () {
     return [
@@ -34,17 +34,13 @@ Schedule.factory('sessions', function () {
                     'start' : '14:20',
                     'end' : '16:00'
                 }
-        },
+            ]
+        }
     ];
 });
 
 
 
 Schedule.controller('ScheduleController', function($scope, $http, $q, rooms, days, sessions) {
-    $scope.details = {};
     $scope.rooms = rooms;
-    var git = [];
-    //angular.forEach($scope.users, function(u) {
-    //    git.push($http.get('https://api.github.com/users/'+u.github));
-    //});
 });
