@@ -1,0 +1,14 @@
+.page {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: sans-serif;
+}
+
+
+.container {
+    position: relative; //containers should always be relative.
+    box-sizing: border-box;
+}
+
+
