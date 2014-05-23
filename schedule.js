@@ -2,8 +2,11 @@ var Schedule = angular.module('schedule', []);
 
 Schedule.factory('rooms', function () {
     return [
-        { 'id' : 'red', 'label' : 'Red Room 4' },
-        { 'id' : 'green', 'label' : 'Green Room 7A' }
+        { 'id' : 'murdoch', 'label' : 'Murdoch Room' },
+		{ 'id' : 'tower', 'label' : 'Tower Block' },
+		{ 'id' : 'main', 'label' : 'Main Hall' },
+		{ 'id' : 'coltman', 'label' : 'Coltman Hut Hall' },
+		{ 'id' : 'amphitheatre', 'label' : 'The Amphitheatre' }
     ];
 });
 
